@@ -1,0 +1,30 @@
+{
+  "name": "web-text-extractor",
+  "version": "0.1.0",
+  "description": "Extract metadata and text from a website.",
+  "homepage": "https://github.com/WCY-dt/web-text-extractor",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "website",
+    "web",
+    "webpage",
+    "html",
+    "text",
+    "extractor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WCY-dt/web-text-extractor.git"
+  },
+  "bugs": "https://github.com/WCY-dt/web-text-extractor/issues",
+  "author": "ch3nyang",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/WCY-dt/web-text-extractor/blob/master/LICENSE"
+    }
+  ]
+}
