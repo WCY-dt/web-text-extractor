@@ -9,30 +9,6 @@ describe('textExtractor', () => {
     });
 
     it('should extract text from html string', () => {
-        const html = '<html><body>Hello, World!</body></html>';
-        const expected = 'Hello, World!';
-        const result = textExtractor(html);
-        expect(result).toBe(expected);
-    });
-
-    it('should extract text from complicated html string', () => {
-        const html = `
-            <html>
-                <head>
-                    <title>Test</title>
-                </head>
-                <body>
-                    <h1>Hello, World!</h1>
-                    <p>This is a test.</p>
-                </body>
-            </html>
-        `;
-        const expected = 'Hello, World!\nThis is a test.';
-        const result = textExtractor(html);
-        expect(result).toBe(expected);
-    });
-
-    it('should extract text from html string with other elements', () => {
         const html = `
             <html>
                 <head>

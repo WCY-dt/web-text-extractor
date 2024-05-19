@@ -1,6 +1,6 @@
 {
   "name": "web-text-extractor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Extract metadata and text from a website.",
   "homepage": "https://github.com/WCY-dt/web-text-extractor",
   "main": "dist/extractor.js",
