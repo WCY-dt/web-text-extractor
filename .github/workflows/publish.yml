@@ -30,6 +30,7 @@ jobs:
         with:
           token: ${{ secrets.NPM_TOKEN }}
           access: public
+        continue-on-error: true
 
       - name: Publish to GitHub Packages
         uses: JS-DevTools/npm-publish@v3
