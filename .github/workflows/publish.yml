@@ -25,6 +25,15 @@ jobs:
       - name: Build TypeScript
         run: npm run build
         
-      - uses: JS-DevTools/npm-publish@v3
+      - name: Publish to NPM
+        uses: JS-DevTools/npm-publish@v3
         with:
           token: ${{ secrets.NPM_TOKEN }}
+          access: public
+
+      - name: Publish to GitHub Packages
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.ACCESS_TOKEN }}
+          registry: https://npm.pkg.github.com/
+          access: public
